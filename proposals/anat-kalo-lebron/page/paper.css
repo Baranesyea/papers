@@ -22,14 +22,6 @@
   src: url("https://cdn.jsdelivr.net/gh/baranesyea/papers@314b4a16218ad5583149a521a4c528270da4a378/fonts/FbOptimum-Black.otf") format("opentype");
 }
 
-@font-face {
-  font-family: "Fb Monopoly";
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/gh/baranesyea/papers@314b4a16218ad5583149a521a4c528270da4a378/fonts/FbMonopolyHeb-Black.otf") format("opentype");
-}
-
 
 html, body { background: #ffffff; }
 
@@ -62,7 +54,6 @@ html, body { background: #ffffff; }
 }
 
 .paper h1 {
-  font-family: "Fb Monopoly", "Fb Optimum", sans-serif;
   font-weight: 900;
   font-size: 48px;
   line-height: 1.15;
