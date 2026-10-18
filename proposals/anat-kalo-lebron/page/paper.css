@@ -234,3 +234,41 @@ html, body { background: #ffffff; }
   font-size: 20px;
   line-height: 1.7;
 }
+
+.quote-items { display: grid; gap: 10px; }
+
+.quote-item {
+  border: 1px solid var(--paper-line);
+  border-radius: 8px;
+  padding: 14px 18px;
+}
+
+.quote-item p { margin: 6px 0 0; font-size: 16px; line-height: 1.6; }
+
+.quote-item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.quote-hours {
+  font-weight: 900;
+  color: var(--paper-blue);
+  white-space: nowrap;
+}
+
+.quote-summary { border-top: 1px solid var(--paper-line); }
+
+.quote-summary > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--paper-line);
+}
+
+.quote-final {
+  font-weight: 900;
+  font-size: 24px;
+  color: var(--paper-blue);
+}
